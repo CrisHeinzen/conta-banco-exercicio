@@ -13,11 +13,11 @@ public class BancoTerminal {
         double saldo = 25;
         double valorSolicitado = 18;       
         
-        if (saldo>=valorSolicitado)
-            saldo = saldo - valorSolicitado;
-        else 
+        if (saldo<valorSolicitado)
             System.out.println("Saldo insuficiente");
-        
+     
+        else 
+             saldo = saldo - valorSolicitado;      
             System.out.println("O saldo atualizado é: " + saldo);
         
         
