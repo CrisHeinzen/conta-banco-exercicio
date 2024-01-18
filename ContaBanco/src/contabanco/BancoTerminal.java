@@ -19,8 +19,19 @@ public class BancoTerminal {
         else 
              saldo = saldo - valorSolicitado;      
             System.out.println("O saldo atualizado é: " + saldo);
+            System.out.println("FIM DA EXECUCAO DO PRIMEIRO TESTE \n");
         
+            
+        double saldo1 = 15;
+        double valorSolicitado1 = 22;       
         
+        if (saldo1<valorSolicitado1)
+            System.out.println("Saldo insuficiente");
+     
+        else 
+             saldo1 = saldo1 - valorSolicitado1;      
+            System.out.println("O saldo atualizado é: " + saldo1);    
+            System.out.println("FIM DA EXECUCAO DO SEGUNDO TESTE \n");
                     }
                 }
 
